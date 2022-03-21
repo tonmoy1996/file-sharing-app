@@ -1,0 +1,30 @@
+{
+  "name": "file-sharing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonmoy1996/file-sharing-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonmoy1996/file-sharing-app/issues"
+  },
+  "homepage": "https://github.com/tonmoy1996/file-sharing-app#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
