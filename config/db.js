@@ -2,7 +2,7 @@ const mongoose= require("mongoose");
 
 function connectDB(){
 
-    mongoose.connect(process.env.MONGO_CONNECTION_URL,{useNewUrlParser: true,
+    mongoose.connect("rmongodb+srv://tonmoy1996:catkin08@cluster0.bd32z.mongodb.net/fileShae?retryWrites=true&w=majority",{useNewUrlParser: true,
         useUnifiedTopology: true});
 
     const connection= mongoose.connection;
