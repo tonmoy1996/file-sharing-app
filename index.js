@@ -2,7 +2,7 @@ require("dotenv").config()
 const express= require("express");
 const app= express()
 const port= process.env.PORT || 3000
-const apiRoute=require("./routes/api");
+const apiRoute=require("./src/routes/index");
 
 //Database Connect
 require("./config/db")();
@@ -17,10 +17,7 @@ app.get("/",(req,res)=>{
 })
 
 //register Routes
-
-app.use("/api/files",apiRoute );
-
-
+app.use("/api/v1/private",apiRoute);
 
 
 app.listen(port,()=>{
