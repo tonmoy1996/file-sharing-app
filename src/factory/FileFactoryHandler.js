@@ -17,7 +17,7 @@ FileFactoryHandler.prototype.createFileHandler=(options)=>{
             break;
     }
 
-    return new this.fileHandlerClass( options );
+    // return new this.fileHandlerClass( options );
 }
 
 module.exports= FileFactoryHandler
