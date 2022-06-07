@@ -1,7 +1,4 @@
-
 "use strict";
-const multer = require("multer");
-const path = require("path");
 const File = require("../models/file");
 const {v4: uuid4} = require("uuid");
 const processFile= require("../middleware/Upload");

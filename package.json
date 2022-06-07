@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/tonmoy1996/file-sharing-app#readme",
   "dependencies": {
-    "@google-cloud/storage": "^5.18.2",
+    "@google-cloud/storage": "^5.20.5",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
